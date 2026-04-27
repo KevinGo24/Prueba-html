@@ -178,8 +178,12 @@ img {
     border-radius: 100px;
     border: solid 4px rgba(175, 19, 19, 0.719);
     padding: 5px;
+    transition: 0.5s;
+    gap: 20px;
 }
-
+img:hover{
+    transform: scale(0.9);
+}
 p {
     font-size: 15px;
     font-weight: 700;
