@@ -1,0 +1,31 @@
+@media (max-width:1024px) {
+    .nav{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 10%;
+    }
+        .list {
+        display: flex;
+        gap: 30px;
+    }
+
+    /* 2. About: Imagen y Texto de lado a lado */
+    .about__content {
+        flex-direction: row; /* Cambia de columna a fila */
+        text-align: left;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .about img {
+        width: 50%; /* La imagen ocupa la mitad */
+        max-width: 500px;
+    }
+
+    /* 3. Footer: Copyright izquierda, Redes derecha */
+    .footer__content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 10%;
+    }
+}
