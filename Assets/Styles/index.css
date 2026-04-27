@@ -1,0 +1,232 @@
+ /* ------- IMPORTACIONES ------*/
+ @import url(/Assets/Styles/Reponse.css);
+ /* -------  ------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.container.header__content {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+   
+}
+
+.list {
+    display: flex;
+    /* Esto alinea los li en fila */
+    justify-content: space-between;
+    /* Centra los elementos */
+    gap: 30px;
+    /* Espacio entre cada opción */
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.nav {
+    background-color: black;
+    border-bottom: #ff4d4d solid 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+li {
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+a {
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff4d4d;
+    /* Un toque de color al pasar el mouse */
+}
+
+.sec-1 {
+    background-image: url(/Assets/Picture/img-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: solid #ff4d4d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+}
+
+.btn {
+    background: rgba(175, 19, 19, 0.719);
+    justify-content: center;
+    border: none;
+    font-size: 25px;
+    transition: 1s;
+    letter-spacing: 5px;
+    border: solid white 2px;
+    color: white;
+    padding: 5px;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+}
+
+.events {
+    background-color: rgb(59, 57, 57);
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.events__table {
+    height: 200px;
+    border: solid rgba(175, 19, 19, 0.719);
+}
+
+thead {
+    background: rgba(175, 19, 19, 0.719);
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+tbody {
+    background-color: rgba(7, 7, 7, 0.247);
+    color: white;
+}
+
+td button {
+    background: rgba(175, 19, 19, 0.719);
+    justify-content: center;
+    border: none;
+    font-size: 15px;
+    transition: 1s;
+    letter-spacing: 5px;
+    color: white;
+    width: 50%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.about {
+    background-color: rgba(31, 20, 20, 0.733);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about__content {
+    display: flex;
+    /* Pone imagen y texto de lado */
+    align-items: center;
+    /* Los alinea verticalmente al centro */
+    gap: 40px;
+    /* Espacio entre la imagen y el texto */
+    max-width: 1000px;
+    /* Para que no se estire demasiado en pantallas pro */
+    margin-top: 20px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 100px;
+    border: solid 4px rgba(175, 19, 19, 0.719);
+    padding: 5px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+ul {
+    list-style: inside;
+    text-align: left;
+}
+
+h3 {
+    text-decoration: underline;
+    color: white;
+}
+
+.media {
+    background-color: black;
+}
+
+.footer {
+    background-color: rgba(31, 20, 20, 0.733);
+    width: 100%;
+    padding: 10px;
+    /* Aire a los costados */
+
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    /* Separa el texto de la lista */
+    align-items: center;
+    /* Los alinea verticalmente */
+    width: 100%;
+    max-width: 1200px;
+    /* Opcional: para que no se peguen a los bordes en pantallas gigantes */
+    margin: 0 auto;
+    /* Centra el contenedor */
+}
+
+.social {
+    display: flex;
+    /* Pone Instagram, Spotify, etc. en fila */
+    gap: 20px;
+    /* Espacio entre cada link */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
